@@ -22,6 +22,13 @@ public class Country {
 		this.length = length;
 	}
 	
+	public Country(String name, String date, Long length) {
+		super();
+		this.name = name;
+		this.date = date;
+		this.length = length;
+	}
+
 	public Country() {
 		super();
 	}

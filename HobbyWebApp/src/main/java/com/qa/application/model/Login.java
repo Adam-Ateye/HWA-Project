@@ -20,6 +20,14 @@ public class Login {
 		this.password = password;
 	}
 	
+	
+	public Login(String username, String password) {
+		super();
+		this.username = username;
+		this.password = password;
+	}
+
+
 	public Login() {
 		super();
 	}
