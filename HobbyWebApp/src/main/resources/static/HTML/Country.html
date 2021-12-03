@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Country</title>
+    <link rel="stylesheet" href="/CSS/Header.css">
+</head>
+<body>
+    <div class="header">
+        <a href="Homepage.html" class="logo">QA Travel Journal</a>
+        <div class="content">
+            <a class="active" href="Homepage.html">Home</a>
+            <a href="ContactUs.html">Contact</a>
+            <a href="About.html">About</a>
+        </div>
+    </div>
+    <div alt="background" class="bg-image overflow-y: scroll" style="
+                        background-image: url(/LINKS/Background.jpg);
+                        height: 100vh;
+                        background-color: #9a9ea9;
+                      ">
+                    <form>
+                    <div class="country">
+                        <label for="addCountry">Which country will you be visiting?</label>
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="addCountry"
+                            placeholder="insert country name"
+                        />
+                    </div>
+                    <div class="length">
+                        <label for="addLength">How long will you be visiting?</label>
+                    </div>
+                    <div>
+                        <input
+                            type="text"
+                            class="form-control"
+                            id="addLength"
+                            placeholder="insert length in days"
+                        />
+                    </div>
+                    <div class="date">
+                        <label for="addDate">When will you be travelling?</label>
+                    </div>
+                    <div>
+                        <input 
+                            type="date" 
+                            class="form-control" 
+                            id="addDate" 
+                        />
+                    </div>
+                    <div class="next">
+                        <a href="Journal.html">
+                            <button 
+                                type="button"
+                                class="addBtn" 
+                                id="addCountryButton"
+                                >
+                                Add
+                            </button>
+                        </a>
+                    </div>
+                    <div class="alertAddCountryDiv"></div>
+                    </form>
+    </div>
+    <script src="/JS/AddCountry.js"></script>
+</body>
+</html>
